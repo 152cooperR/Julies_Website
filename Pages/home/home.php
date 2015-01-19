@@ -73,7 +73,7 @@
 <div class="navbar navbar-fixed-bottom">
     <div class="container">
 
-        <a>© Nathan Rhodes 2015. All Rights Reserved.</a>
+        <a>© Nathan Rhodes 2015. All Rights Reserved. </a>
     </div>
 
 
