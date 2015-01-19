@@ -33,7 +33,7 @@
                     <li><a href="#">Pricing</a></li>
                     <li><a href="#">Reminder Services</a></li>
                     <li><a href="#">Scheduling</a></li>
-                    <li><a href="#">Shopping</a></li>
+                    <li><a href="#">Shopping Services</a></li>
                 </ul>
             </div>
         </div>
