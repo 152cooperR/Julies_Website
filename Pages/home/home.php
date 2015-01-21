@@ -1,20 +1,30 @@
 <html>
 <head>
+
+    <script type="text/javascript">
+        <!--
+        if (screen.width <= 699) {
+            document.location = "mobile/home.html";
+        }
+        //-->
+    </script>
     <meta lang="en">
     <meta charset="utf-8">
-    <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+
+    <!-- For linux and everything else in the world -->
+    <link rel="stylesheet" href="/css/bootstrap.css"/>
+    <link rel="stylesheet" href="/css/bootstrap-responsive.min.css"/>
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css"/>
+    <!-- For windows -_- -->
+
     <link rel="stylesheet" href="\Julies_Website\css\bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="\Julies_Website\css\bootstrap-responsive.min.css"/>
+    <link rel="stylesheet" href="\Julies_Website\css\bootstrap-theme.min.css"/>
+
+
 </head>
-<div class="jumbotron">
-        <div class="container">
 
-            <h2>Julies Personal Assistant Service</h2>
-
-        </div>
-</div>
-<body>
 
 
 <!--
@@ -49,10 +59,17 @@
 -->
 
 <body>
+<div class="jumbotron">
+    <div class="container">
+
+        <h2>Julies Personal Assistant Service</h2>
+
+    </div>
+</div>
 <div class="navbar-wrapper">
     <div class="container">
 
-        <nav class="navbar navbar-inverse navbar-static-top">
+        <nav class="navbar navbar-inverse">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -61,15 +78,38 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Project name</a>
+                    <a class="navbar-brand" href="#">Navigation</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
+
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Entertainment<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Invitations / party</a></li>
+                                <li><a href="#">RSVP Coordination</a></li>
+                                <li><a href="#">Coordination with vendors</a></li>
+                                <li><a href="#">Grocery & Alcohol Shopping</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Moving<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Hire a moving company</a></li>
+                                <li><a href="#">Day of move coordination</a></li>
+                                <li><a href="#">Pack, un-pack & organize</a></li>
+                                <li><a href="#">Stock house with supplies</a></li>
+                                <li><a href="#">Setup utilises accounts</a></li>
+                                <li><a href="#">Meet delivery people</a></li>
+                                <li><a href="#">Donate un-wanted items</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Organization<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="#">Action</a></li>
                                 <li><a href="#">Another action</a></li>
@@ -80,6 +120,49 @@
                                 <li><a href="#">One more separated link</a></li>
                             </ul>
                         </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Personal Care<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">Pricing</a></li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Scheduling<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">Reminder Services</a></li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Shopping Services<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -151,23 +234,14 @@
 <div class="container">
     <h5>© Julies Personal Assistant Inc. 2015. All Rights Reserved. </h5>
 </div>
-
-<script src="/js/bootstrap.min.js"></script>
+<!-- For all os !Windows -->
 <script src="/js/jquery-2.1.3.min.js"></script>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-</body>
+<script src="/js/bootstrap.min.js"></script>
 
-<!--
-            <li><a href="/Julies Website/Pages/home/home.php">Home</a></li>
-            <li><a href="/Julies Website/Pages/PersonalCare/personalCare.php">Personal Care</a></li>
-            <li><a href="/Julies Website/Pages/Org/org.php">Organization</a></li>
-            <li><a href="/Julies Website/Pages/Moving/moving.php" >Moving In/Out</a></li>
-            <li><a href="/Julies Website/Pages/Reminding/remind.php" >Reminder services</a></li>
-            <li><a href="/Julies Website/Pages/Entertainment/ent.php" >Entertaining</a></li>
-            <li><a href="/Julies Website/Pages/Shopping/shopping.php" >Personal shopping</a></li>
-            <li><a href="/Julies Website/Pages/Sched/sched.php"  >Schedule Services</a></li>
-            <li><a href="/Julies Website/Pages/Pricing/pricing.php" >Pricing</a></li>
--->
+<!-- For windows -->
+
+<script src="\Julies_Website\js\jquery-2.1.3.min.js"></script>
+<script src="\Julies_Website\js\bootstrap.min.js"></script>
+</body>
 
 </html>
