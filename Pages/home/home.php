@@ -4,7 +4,8 @@
     <script type="text/javascript">
         <!--
         if (screen.width <= 699) {
-            document.location = "mobile/home.html";
+            document.location = "Mobile/home/home.php";
+            document.location = "Mobile\home\home.php";
         }
         //-->
     </script>
@@ -26,38 +27,6 @@
 </head>
 
 
-
-<!--
-<div class="container">
-
-    <nav class="navbar navbar-inverse" >
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#"></a>
-            </div>
-            <div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Entertainment</a></li>
-                    <li><a href="#">Moving</a></li>
-                    <li><a href="#">Organization</a></li>
-                    <li><a href="#">Personal Care</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Reminder Services</a></li>
-                    <li><a href="#">Scheduling</a></li>
-                    <li><a href="#">Shopping Services</a></li>
-                </ul>
-
-
-            </div>
-        </div>
-    </nav>
-
-
-
-</div>
--->
-
 <body>
 <div class="jumbotron">
     <div class="container">
@@ -66,26 +35,26 @@
 
     </div>
 </div>
+
+
+<div class="container">
 <div class="navbar-wrapper">
-    <div class="container">
 
         <nav class="navbar navbar-inverse">
             <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <button style="min-height: 594px;" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Navigation</a>
+                    <a class="navbar-brand glyphicon glyphicon-home" href="#"> Home</a>
                 </div>
-                <div id="navbar" class="navbar-collapse collapse">
+                <div id="navbar" class="navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Entertainment<span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-expanded="false"> Entertainment<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="#">Invitations / party</a></li>
                                 <li><a href="#">RSVP Coordination</a></li>
@@ -95,7 +64,7 @@
                         </li>
 
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Moving<span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Moving<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="#">Hire a moving company</a></li>
                                 <li><a href="#">Day of move coordination</a></li>
@@ -111,25 +80,20 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Organization<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li class="divider"></li>
-                                <li class="dropdown-header">Nav header</li>
-                                <li><a href="#">Separated link</a></li>
-                                <li><a href="#">One more separated link</a></li>
+                                <li><a href="#">Home & Office Organization</a></li>
+                                <li><a href="#">Home repair</a></li>
+                                <li><a href="#">Deliveries</a></li>
+                                <li><a href="#">Utilities Installation</a></li>
+                                <li><a href="#">House Sitting</a></li>
+
+
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Personal Care<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li class="divider"></li>
-                                <li class="dropdown-header">Nav header</li>
-                                <li><a href="#">Separated link</a></li>
-                                <li><a href="#">One more separated link</a></li>
+                                <li><a href="#">Senior Care</a></li>
+
                             </ul>
                         </li>
 
@@ -138,28 +102,30 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Scheduling<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li class="divider"></li>
-                                <li class="dropdown-header">Nav header</li>
-                                <li><a href="#">Separated link</a></li>
-                                <li><a href="#">One more separated link</a></li>
+                                <li><a href="#">Laundry & dry cleaning</a></li>
+                                <li><a href="#">Prescription drop off & pick up</a></li>
+                                <li><a href="#">Post offices, UPS, & FedEx pickups</a></li>
+                                <li><a href="#">Car detail and service appointments</a> </li>
+                                <li><a href="#">Home repair</a> </li>
+                                <li><a href="#">Restaurant reservations</a></li>
+                                <li><a href="#">Car rentals</a></li>
+                                <li><a href="#">Vacation planning</a></li>
+                                <li><a href="#">Hotel scheduling</a></li>
+
+
                             </ul>
                         </li>
 
                         <li><a href="#">Reminder Services</a></li>
 
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Shopping Services<span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Shopping Services<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li class="divider"></li>
-                                <li class="dropdown-header">Nav header</li>
-                                <li><a href="#">Separated link</a></li>
-                                <li><a href="#">One more separated link</a></li>
+                                <li><a href="#">Specific Gifts</a></li>
+                                <li><a href="#">Gift Wrapping</a></li>
+                                <li><a href="#">Addressing for holiday cards and gifts</a></li>
+                                <li><a href="#">Gift cards/ certificates</a></li>
+                                <li><a href="#">Ship or deliver a gift</a></li>
                             </ul>
                         </li>
 
@@ -169,6 +135,15 @@
         </nav>
 
     </div>
+</div>
+
+
+<div class="container">
+
+
+
+
+
 </div>
 
 <div class="container">
@@ -192,13 +167,14 @@
                 To find out more about each of the services, click each of the links above.
                 </p>
 
-
             </div>
 
 
         </div>
 
 </div>
+
+
 <div class="container">
 
 
