@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <title>Julies Personal Asst.</title>
     <meta charset="utf-8">
@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="\Julies_Website\css\bootstrap-responsive.min.css"/>
     <link rel="stylesheet" href="\Julies_Website\css\bootstrap-theme.min.css"/>
 
-    <link rel="stylesheet" href="this.css">
 
 
 </head>
@@ -126,62 +125,66 @@
 
     </div>
 </div>
-
-    <!-- Static navbar -->
-
-
+<!-- Future Nathan, put your content here :) -->
 
 <div class="container">
 
+    <div class="panel panel-info">
 
-    <div class="panel  panel-info">
-
-        <div class="panel-heading">Welcome!</div>
+        <div class="panel-heading">Sign up for services.</div>
         <div class="panel-body">
+            <form method="post" action="signup.php">
+                <div class="form-group">
 
-            <p>Welcome to Julies personal assistant website! Here we offer many services including:
-            <ul class="list-group">
-                <li class="list-group-item"><a href="#">Entertainment</a></li>
-                <li class="list-group-item"><a href="#">Moving</a> </li>
-                <li class="list-group-item"><a href="#">Organization</a> </li>
-                <li class="list-group-item"><a href="#">Personal Care</a></li>
-                <li class="list-group-item"><a href="#">Reminder Services</a></li>
-                <li class="list-group-item"><a href="#">Scheduling</a> </li>
-                <li class="list-group-item"><a href="#">Shopping</a></li>
-            </ul>
-            To find out more about each of the services, click each of the links above.
-            </p>
+                    <div class="col-md-5">
 
+                        <p>Personal Information</p>
+
+                        <input type="text" placeholder="Name (First)" class="form-control" name="FirstName" required="true"><br>
+
+                        <input type="text" placeholder="Name (Last)" class="form-control" name="LastName" required="true"><br>
+
+                        <input type="email" placeholder="Email" class="form-control" name="email" required="true"><br>
+
+                        <input type="text" placeholder="Address" class="form-control" name="Address" required="true"><br>
+
+                        <input type="text" placeholder="City" class="form-control" name="City" required="true"><br>
+
+                        <input type="text" placeholder="Zipcode" class="form-control" name="Zipcode" required="true"><br>
+
+                        <input type="text" placeholder="Tell us about you" class="form-control" size="10" id="tuab">
+
+                        <div class="tuab_feedback"></div>
+
+                        <script type="text/javascript">
+                        $(document).ready(function() {
+                            var text_max = 99;
+                            $('#tuab_feedback').html(text_max + ' characters remaining');
+
+                            $('#tuab').keyup(function() {
+                                var text_length = $('#tuab').val().length;
+                                var text_remaining = text_max - text_length;
+
+                                $('#tuab_feedback').html(text_remaining + ' characters remaining');
+                            });
+                        });
+                        </script>
+                        <p>Services</p>
+
+                        <input class="btn btn-primary" type="submit" value="Sign Up">
+
+                    </div>
+
+                </div>
+
+
+            </form>
         </div>
-
-
     </div>
 
 </div>
 
-
-<div class="container">
-
-
-    <div class="panel  panel-info">
-
-        <div class="panel-heading">Contact us:</div>
-        <div class="panel-body">
-
-            <p>Here at Jules Personal Assistant we are dedicated to helping you the, customer.
-                If you have any questions about the services we offer you can
-                <a href="mailto:nrtheprogrammer@gmail.com">email us</a>
-                , we will respond as soon as possible. </p>
-
-        </div>
-    </div>
-
-</div>
-
-
-
-
-
+<!-- & end it here -->
 <div class="container">
 
     <div class="alert alert-danger">
@@ -195,7 +198,7 @@
 
 <footer class="footer">
     <div class="container">
-        <p class="text-muted">© Julies Personal Assistant Inc. <?php echo(date("Y"))?>. All Rights Reserved.</p>
+        <p class="text-muted">© Julies Personal Assistant Inc. <?php echo(date("Y")) ?>. All Rights Reserved.</p>
     </div>
 </footer>
 
