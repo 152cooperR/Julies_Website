@@ -6,7 +6,6 @@
         if (screen.width <= 699) {
             console.log("Switching to mobile layout!");
             document.location = "Mobile/home/home.php";
-            document.location = "Mobile\home\home.php";
         }
         //-->
     </script>
