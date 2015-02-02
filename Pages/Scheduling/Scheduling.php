@@ -136,9 +136,10 @@
             <form method="post" action="signup.php">
                 <div class="form-group">
 
-                    <div class="col-md-5">
+                    <div class="col-md-6">
+                        <div class="well-sm well">
 
-                        <p>Personal Information</p>
+                        <p class="text-primary text-justify">Personal Information</p>
 
                         <input type="text" placeholder="Name (First)" class="form-control" name="FirstName" required="true"><br>
 
@@ -146,31 +147,26 @@
 
                         <input type="email" placeholder="Email" class="form-control" name="email" required="true"><br>
 
+                        <input type="tel" placeholder="Phone Number" class="form-control" name="phone" required="true" maxlength="8"><br>
+
                         <input type="text" placeholder="Address" class="form-control" name="Address" required="true"><br>
 
                         <input type="text" placeholder="City" class="form-control" name="City" required="true"><br>
 
-                        <input type="text" placeholder="Zipcode" class="form-control" name="Zipcode" required="true"><br>
+                        <input type="text" placeholder="Zipcode" class="form-control" name="Zipcode" required="true" maxlength="5"><br>
 
-                        <input type="text" placeholder="Tell us about you" class="form-control" size="10" id="tuab">
+                        <textarea rows="5" class="form-control" placeholder="Tell us about you" maxlength="1000" draggable="false" spellcheck="true"></textarea>
 
-                        <div class="tuab_feedback"></div>
+                        </div>
 
-                        <script type="text/javascript">
-                        $(document).ready(function() {
-                            var text_max = 99;
-                            $('#tuab_feedback').html(text_max + ' characters remaining');
+                    </div>
+                    <div class="col-md-6">
+                        <div class="well-sm well">
+                            <p class="text-primary text-justify">Services</p><br>
 
-                            $('#tuab').keyup(function() {
-                                var text_length = $('#tuab').val().length;
-                                var text_remaining = text_max - text_length;
+                            <input type="">
 
-                                $('#tuab_feedback').html(text_remaining + ' characters remaining');
-                            });
-                        });
-                        </script>
-                        <p>Services</p>
-
+                        </div>
                         <input class="btn btn-primary" type="submit" value="Sign Up">
 
                     </div>
@@ -189,7 +185,7 @@
 
     <div class="alert alert-danger">
         <p>Please note that this website is still a work in porgress,
-            if you find a bug please report it <a href="mailto:nrtheprogrammer@gmail.com?Body=I would like to report a bug where ______ happens and I think ______ should be happening.&amp;Subject=Website%20Bug%20Report%20On%20<?php echo(date("D d M Y"));?>">here</a>.</p>
+            if you find a bug please report it <a href="mailto:nrtheprogrammer@gmail.com?Body=I would like to report a bug where ______ happens and I think ______ should be happening.&ampSubject=Website%20Bug%20Report">here</a>.</p>
 
     </div>
 
@@ -198,7 +194,7 @@
 
 <footer class="footer">
     <div class="container">
-        <p class="text-muted">© Julies Personal Assistant Inc. <?php echo(date("Y")) ?>. All Rights Reserved.</p>
+        <p class="text-muted">© Julies Personal Assistant Inc. 2015. All Rights Reserved.</p>
     </div>
 </footer>
 

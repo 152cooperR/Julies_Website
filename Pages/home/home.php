@@ -186,7 +186,7 @@
 
     <div class="alert alert-danger">
         <p>Please note that this website is still a work in porgress,
-            if you find a bug please report it <a href="mailto:nrtheprogrammer@gmail.com?Body=I would like to report a bug where ______ happens and I think ______ should be happening.&amp;Subject=Website%20Bug%20Report%20On%20<?php echo(date("D d M Y"));?>">here</a>.</p>
+            if you find a bug please report it <a href="mailto:nrtheprogrammer@gmail.com?Body=I would like to report a bug where ______ happens and I think ______ should be happening.&amp;Subject=Website%20Bug%20Report">here</a>.</p>
 
     </div>
 
@@ -195,7 +195,7 @@
 
 <footer class="footer">
     <div class="container">
-        <p class="text-muted">© Julies Personal Assistant Inc. <?php echo(date("Y"))?>. All Rights Reserved.</p>
+        <p class="text-muted">© Julies Personal Assistant Inc. 2015. All Rights Reserved.</p>
     </div>
 </footer>
 
