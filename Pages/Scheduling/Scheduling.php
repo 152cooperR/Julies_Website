@@ -163,8 +163,14 @@
                     <div class="col-md-6">
                         <div class="well-sm well">
                             <p class="text-primary text-justify">Services</p><br>
+                            <div class="container">
+                                <input type="checkbox"><a>  Entertainment</a> <br/>
+                                <input type="checkbox"><a>  Relocation Services</a><br/>
+                                <input type="checkbox"><a>  Organization</a><br/>
+                                <input type="checkbox"><a>  Personal Care</a><br/>
+                                <input type="checkbox"><a>  Shopping</a><br/>
 
-                            <input type="">
+                            </div>
 
                         </div>
                         <input class="btn btn-primary" type="submit" value="Sign Up">
